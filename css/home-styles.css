@@ -105,6 +105,13 @@ header {
   grid-area: right;
 }
 
+#right-head {
+  margin-left: 5%;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 52px;
+}
+
 #right-head1 {
   margin-left: 5%;
   font-weight: 800;
