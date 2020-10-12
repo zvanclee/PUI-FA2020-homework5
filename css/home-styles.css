@@ -6,7 +6,7 @@
   grid-template-areas: "header header"
                        "left right"
                        "footer footer";
-  grid-template-rows: 100px 600px 150px;
+  grid-template-rows: 110px 600px 150px;
   grid-template-columns: 50% 50%;
   background-color: #3E4454;
 }
@@ -185,6 +185,15 @@ footer {
 }
 
 .footer-muddy-paws {
+  margin-left: 10%;
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+.footer-back-to-top {
   margin-left: 10%;
   float: left;
   display: block;
