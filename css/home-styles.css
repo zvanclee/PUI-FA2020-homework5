@@ -77,7 +77,7 @@ header {
 .left {
   background-color: #FBFCFF;
   grid-area: left;
-  background-image: url("images/footprints.png");
+  background-image: url(".../images/footprints.png");
 }
 
 .new-arrivals-background {
