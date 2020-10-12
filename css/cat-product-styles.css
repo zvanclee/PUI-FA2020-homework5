@@ -80,6 +80,17 @@ header {
   border-right: 5px solid black;
 }
 
+#filter-button
+{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.filter_options
+{
+  margin-left: 10px;
+}
+
 .right {
   background-color: #FBFCFF;
   grid-area: right;
