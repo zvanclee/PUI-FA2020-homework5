@@ -112,18 +112,18 @@ header {
   line-height: 52px;
 }
 
-#right-head2 {
-  margin-left: 5%;
-  font-weight: 800;
-  font-size: 42px;
-  line-height: 52px;
-}
-
 #right-content1 {
   position: absolute;
   width: 410px;
   left: 60%;
   top: 30%;
+}
+
+#right-head2 {
+  margin-left: 5%;
+  font-weight: 800;
+  font-size: 42px;
+  line-height: 52px;
 }
 
 #right-content2 {
