@@ -77,6 +77,7 @@ header {
 .left {
   background-color: #FBFCFF;
   grid-area: left;
+  border-right: 5px solid black;
 }
 
 .right {
