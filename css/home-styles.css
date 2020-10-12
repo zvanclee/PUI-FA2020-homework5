@@ -78,7 +78,6 @@ header {
   background-color: #FBFCFF;
   grid-area: left;
   background-image: url("../images/footprints0.png");
-  border-right: 5px solid black;
 }
 
 .new-arrivals-background {
@@ -104,13 +103,7 @@ header {
 .right {
   background-color: #FBFCFF;
   grid-area: right;
-}
-
-#right-head {
-  margin-left: 5%;
-  font-weight: 800;
-  font-size: 42px;
-  line-height: 52px;
+  border-left: 3px solid black;
 }
 
 #right-head1 {
