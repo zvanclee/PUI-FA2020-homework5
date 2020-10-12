@@ -77,7 +77,8 @@ header {
 .left {
   background-color: #FBFCFF;
   grid-area: left;
-  background-image: url("/Users/zachvancleef/Sites/PUI-FA2020-homework5/images/footprints0.png");
+  background-image: url("../images/footprints0.png");
+  border-right: 5px solid black;
 }
 
 .new-arrivals-background {
