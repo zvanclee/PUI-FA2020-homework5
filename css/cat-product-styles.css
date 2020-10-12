@@ -6,7 +6,7 @@
   grid-template-areas: "header header"
                        "left right"
                        "footer footer";
-  grid-template-rows: 100px 1200px 150px;
+  grid-template-rows: 110px 1200px 150px;
   grid-template-columns: 20% 80%;
   background-color: #3E4454;
 }
@@ -59,19 +59,19 @@ header {
 #header-search {
   position: absolute;
   left: 63%;
-  top: 3%;
+  top: 2%;
 }
 
 #header-user {
   position: absolute;
   left: 85%;
-  top: 3%;
+  top: 2%;
 }
 
 #header-cart {
   position: absolute;
   left: 90%;
-  top: 3%;
+  top: 2%;
 }
 
 .left {
