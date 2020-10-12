@@ -105,7 +105,7 @@ header {
   grid-area: right;
 }
 
-.right-head {
+#right-head {
   margin-left: 5%;
   font-weight: 800;
   font-size: 42px;
