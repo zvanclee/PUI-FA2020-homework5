@@ -3,14 +3,15 @@ function changeColor(newColor) {
 
   if(newColor == "strawberry") {
     newProductImg.src = "images/strawberry-harness.png";
+    document.getElementById("color-text").textContent="Strawberry";
   }
   else if (newColor == "blackberry") {
-    newProductImg.src = "images/header-logo.png";
+  document.getElementById("color-text").textContent="Blackberry";
   }
   else if (newColor == "crazyberry") {
-    newProductImg.src = "images/header-logo.png";
+  document.getElementById("color-text").textContent="Crazyberry";
   }
   else if (newColor == "fireOrange") {
-    newProductImg.src = "images/header-logo.png";
+  document.getElementById("color-text").textContent="Fire Orange";
   }
 }
