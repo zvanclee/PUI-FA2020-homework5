@@ -16,12 +16,12 @@ function changeColor(newColor) {
     newProductImg.src = "images/strawberry-harness.png";
   }
   else if (newColor == "blackberry") {
-    newProductImg.src = "images/blackberry-harness.png";
+    newProductImg.src = "images/header-logo.png";
   }
   else if (newColor == "crazyberry") {
-    newProductImg.src = "images/crazyberry-harness.png";
+    newProductImg.src = "images/header-logo.png";
   }
   else if (newColor == "fireOrange") {
-    newProductImg.src = "images/fireOrange-harness.png";
+    newProductImg.src = "images/header-logo.png";
   }
 }
