@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  <!-- header -->
     <div class="header">
       <img id="header-logo" src="images/header-logo.png" alt="Muddy Paws logo"/>
       <div class="nav-bar">
@@ -21,8 +22,9 @@
         <img id="header-cart" src="images/header-cart.png" alt="cart image"/>
       </div>
     </div>
-    <div class="row">
 
+    <!-- start of row (img and product info/customization/add to cart) -->
+    <div class="row">
 
     <!-- left column -->
       <div class="left-column">
@@ -32,9 +34,8 @@
           <li>Cat Harness</li>
         </ul>
         <img id=product-img src="images/strawberry-harness.png" alt="product image" width="500" height="500"/>
-        <img src="images/sizing-info.png" alt="sizing chart image"/>
+        <img class="sizingChart" src="images/sizing-info.png" alt="sizing chart image" height="200px"/>
       </div>
-
 
       <!-- right column -->
       <div class="right-column">
@@ -58,7 +59,7 @@
         <div class="product-customization">
           <!-- color choice -->
           <div class="product-color">
-            <span>Color: <span id="color-text">Strawberry</span></span>
+            <span>Color: <span id="color-text">Strawberry</span></span><br><br>
             <div class="color-choice">
               <div>
                 <!-- <input data-image="strawberry" type="radio" id="strawberry" name="color" value="strawberry" onClick="changeColor(this.value)" checked> -->
@@ -81,8 +82,7 @@
           </div>
           <!-- size choice -->
           <div class="size-customization">
-            <span>Sizing (see sizing chart): </span>
-
+            <span>Size: </span>
             <div class="size-choice">
               <button>Tiny</button>
               <button>Small</button>
