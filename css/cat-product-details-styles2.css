@@ -167,6 +167,11 @@ html, body {
   margin-bottom: 30px;
 }
 
+.product-color span {
+  margin-bottom: 30px;
+}
+
+
 .color-choice div {
   display: flex;
 }
