@@ -168,12 +168,18 @@ html, body {
 }
 
 .product-color span {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 
 .color-choice div {
-  display: flex;
+  display: inline-flex;
+}
+
+.color-choice span {
+  float: left;
+  padding: 0 1em;
+  text-align: center;
 }
 
 .color-choice input[type=radio] {
@@ -181,7 +187,7 @@ html, body {
 }
 
 .color-choice input[type=radio] + label {
-  display: flex;
+  display: inline-flex;
   width: 40px;
   height: 40px;
   vertical-align: middle;
@@ -190,8 +196,9 @@ html, body {
 }
 
 .color-choice input[type=radio] + label {
-  border: 2px solid #FFFFFF;
+  border: 2px solid #F5F5F5;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
+  margin: 15px;
 }
 
 .color-choice input[type=radio]#strawberry + label {
@@ -207,8 +214,10 @@ html, body {
   background-color: #FF7A00;
 }
 
-.color-choice input[type=&amp;quot;radio&amp;quot;]:checked + label {
-  background-color:green;
+.color-choice input[type=radio]:checked + label {
+  transition: all .75s;
+  border: 2px solid #757575;
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
 }
 
 /* crumb trail */
@@ -239,7 +248,7 @@ ul.crumb-trail li a:hover {
 }
 
 .size-choice button {
-  border: 2px solid #E1E8EE;
+  border: 2px solid #D6D6D6;
   border-radius: 6px;
   padding: 13px 20px;
   font-size: 14px;
@@ -252,7 +261,7 @@ ul.crumb-trail li a:hover {
 .size-choice button:hover,
 .size-choice button:active,
 .size-choice button:focus {
-  border: 2px solid #86939E;
+  border: 2px solid #757575;
   outline: none;
 }
 
