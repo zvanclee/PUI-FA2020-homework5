@@ -23,7 +23,7 @@
     </div>
     <div class="row">
       <!-- Left Column / Headphones Image -->
-      <div class="left-column">
+      <!-- <div class="left-column">
         <ul class="crumb-trail">
           <li><a href="index.html">Home</a></li>
           <li><a href="cat-product-page.html">Cats</a></li>
@@ -34,7 +34,19 @@
         <img data-image="blackberry" src="images/blackberry-harness.png" alt="">
         <img data-image="strawberry" class="active" src="images/strawberry-harness.png" alt="">
         <img class="product-img" src="images/sizing-info.png" alt="sizing chart image"/>
+      </div> -->
 
+      <div class="left-column">
+        <ul class="crumb-trail">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cat-product-page.html">Cats</a></li>
+          <li>Cat Harness</li>
+        </ul>
+        <img id="product-image" src="images/header-logo.png" alt="product image" onclick="changeProductColor()">
+        <img data-image="crazyberry" src="images/crazyberry-harness.png" alt="">
+        <img data-image="blackberry" src="images/blackberry-harness.png" alt="">
+        <img data-image="strawberry" class="active" src="images/strawberry-harness.png" alt="">
+        <img class="product-img" src="images/sizing-info.png" alt="sizing chart image"/>
       </div>
 
 
@@ -60,20 +72,21 @@
 
             <div class="color-choice">
               <div>
-                <input data-image="strawberry" type="radio" id="strawberry" name="color" value="strawberry" checked>
-                <label for="strawberry"><span></span></label>
+                <!-- <input data-image="strawberry" type="radio" id="strawberry" name="color" value="strawberry" onClick="changeColor(this.value)" checked> -->
+                <input type="radio" id="strawberry" name="color" value="strawberry" onClick="changeColor(this.value)" checked>
+                <!-- <label for="strawberry"><span></span></label> -->
               </div>
               <div>
-                <input data-image="blackberry" type="radio" id="blackberry" name="color" value="blackberry">
-                <label for="blackberry"><span></span></label>
+                <input type="radio" id="blackberry" name="color" value="blackberry" onClick="changeColor(this.value)">
+                <!-- <label for="blackberry"><span></span></label> -->
               </div>
               <div>
-                <input data-image="crazyberry" type="radio" id="crazyberry" name="color" value="crazyberry">
-                <label for="crazyberry"><span></span></label>
+                <input type="radio" id="crazyberry" name="color" value="crazyberry" onClick="changeColor(this.value)">
+                <!-- <label for="crazyberry"><span></span></label> -->
               </div>
               <div>
-                <input data-image="fireOrange" type="radio" id="fireOrange" name="color" value="fireOrange">
-                <label for="fireOrange"><span></span></label>
+                <input type="radio" id="fireOrange" name="color" value="fireOrange" onClick="changeColor(this.value)">
+                <!-- <label for="fireOrange"><span></span></label> -->
               </div>
             </div>
 
