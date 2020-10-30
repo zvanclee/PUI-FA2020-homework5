@@ -1,3 +1,7 @@
+// product details page
+// color customization function
+// -pre: page always loads on 'strawberry' color
+// -post: color of images and text by color field will reflect newly selected color
 function changeColor(newColor) {
   let newProductImg = document.getElementById("product-img");
   let colorFieldText = document.getElementById("color-text");
