@@ -63,19 +63,19 @@ header {
 #header-search {
   position: absolute;
   left: 63%;
-  top: 3%;
+  top: 10px;
 }
 
 #header-user {
   position: absolute;
   left: 85%;
-  top: 3%;
+  top: 10px;
 }
 
 #header-cart {
   position: absolute;
   left: 90%;
-  top: 3%;
+  top: 10px;
 }
 
 .left {
