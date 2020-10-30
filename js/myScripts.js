@@ -1,17 +1,21 @@
 function changeColor(newColor) {
   let newProductImg = document.getElementById("product-img");
+  let colorFieldText = document.getElementById("color-text");
 
   if(newColor == "strawberry") {
     newProductImg.src = "images/strawberry-harness.png";
-    document.getElementById("color-text").textContent="Strawberry";
+    colorFieldText.textContent="Strawberry";
   }
   else if (newColor == "blackberry") {
-  document.getElementById("color-text").textContent="Blackberry";
+    newProductImg.src = "images/strawberry-harness.png";
+    colorFieldText.textContent="Blackberry";
   }
   else if (newColor == "crazyberry") {
-  document.getElementById("color-text").textContent="Crazyberry";
+    newProductImg.src = "images/strawberry-harness.png";
+    colorFieldText.textContent="Crazyberry";
   }
   else if (newColor == "fireOrange") {
-  document.getElementById("color-text").textContent="Fire Orange";
+    newProductImg.src = "images/strawberry-harness.png";
+    colorFieldText.textContent="Fire Orange";
   }
 }
