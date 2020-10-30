@@ -7,7 +7,7 @@ function changeColor(newColor) {
     colorFieldText.textContent="Strawberry";
   }
   else if (newColor == "blackberry") {
-    newProductImg.src = "images/strawberry-harness.png";
+    newProductImg.src = "images/header-logo.png";
     colorFieldText.textContent="Blackberry";
   }
   else if (newColor == "crazyberry") {
