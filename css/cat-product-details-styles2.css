@@ -170,11 +170,11 @@ html, body {
   display: inline-block;
 }
 
-.color-choice input[type=&amp;quot;radio&amp;quot;] {
+.color-choice input[type=radio] {
   display: none;
 }
 
-.color-choice input[type=&amp;quot;radio&amp;quot;] + label span {
+.color-choice input[type=radio] + label {
   display: inline-block;
   width: 40px;
   height: 40px;
@@ -184,28 +184,26 @@ html, body {
   border-radius: 50%;
 }
 
-.color-choice input[type=&amp;quot;radio&amp;quot;] + label span {
+.color-choice input[type=radio] + label span {
   border: 2px solid #FFFFFF;
   box-shadow: 0 1px 3px 0 rgba(0,0,0,0.33);
 }
 
-.color-choice input[type=type=&amp;quot;radio&amp;quot;]#strawberry + label span {
+.color-choice input[type=radio]#strawberry + label {
   background-color: #E62C3C;
 }
-.color-choice input[type=&amp;quot;radio&amp;quot;]#blackberry + label span {
+.color-choice input[type=radio]#blackberry + label {
   background-color: #7D2685;
 }
-.color-choice input[type=&amp;quot;radio&amp;quot;]#crazyberry + label span {
+.color-choice input[type=radio]#crazyberry + label {
   background-color: #5FBCFF;
 }
-.color-choice input[type=&amp;quot;radio&amp;quot;]#fireOrange + label span {
+.color-choice input[type=radio]#fireOrange + label {
   background-color: #FF7A00;
 }
 
-.color-choice input[type=&amp;quot;radio&amp;quot;]:checked + label span {
-  background-image: url(images/check-icn.svg);
-  background-repeat: no-repeat;
-  background-position: center;
+.color-choice input[type=&amp;quot;radio&amp;quot;]:checked + label {
+  background-color:green;
 }
 
 /* crumb trail */
