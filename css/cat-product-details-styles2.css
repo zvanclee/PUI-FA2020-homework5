@@ -139,6 +139,7 @@ html, body {
 #product-img {
   left: 0;
   top: 0;
+  padding-bottom: 30px;
 }
 
 /* Product Description */
