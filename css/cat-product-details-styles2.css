@@ -176,10 +176,9 @@ html, body {
 }
 
 .color-choice input[type=radio] + label {
-  display: inline-block;
+  display: flex;
   width: 40px;
   height: 40px;
-  margin: -1px 4px 0 0;
   vertical-align: middle;
   cursor: pointer;
   border-radius: 50%;
