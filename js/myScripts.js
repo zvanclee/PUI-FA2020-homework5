@@ -7,15 +7,15 @@ function changeColor(newColor) {
     colorFieldText.textContent="Strawberry";
   }
   else if (newColor == "blackberry") {
-    newProductImg.src = "images/header-logo.png";
+    newProductImg.src = "images/blackberry-harness.png";
     colorFieldText.textContent="Blackberry";
   }
   else if (newColor == "crazyberry") {
-    newProductImg.src = "images/strawberry-harness.png";
+    newProductImg.src = "images/crazyberry-harness.png";
     colorFieldText.textContent="Crazyberry";
   }
   else if (newColor == "fireOrange") {
-    newProductImg.src = "images/strawberry-harness.png";
+    newProductImg.src = "images/fireOrange-harness.png";
     colorFieldText.textContent="Fire Orange";
   }
 }
