@@ -155,11 +155,29 @@ html, body {
   margin-bottom: 15px;
 }
 
+.product-description h2 {
+  color: #43484D;
+  margin-bottom: 15px;
+}
+
 .product-description p {
   font-size: 16px;
   font-weight: 300;
-  color: #86939E;
+  color: #43484D;
   line-height: 24px;
+}
+
+.reviewScore {
+  display: flex;
+  align-items:center;
+}
+
+.reviewScore img {
+  padding-right: 20px;
+}
+
+.reviewScore h3 {
+  color: #43484D;
 }
 
 /* Product Color */
@@ -174,12 +192,6 @@ html, body {
 
 .color-choice div {
   display: inline-flex;
-}
-
-.color-choice span {
-  float: left;
-  padding: 0 1em;
-  text-align: center;
 }
 
 .color-choice input[type=radio] {
@@ -242,16 +254,17 @@ ul.crumb-trail li a:hover {
   color: #446DFF;
 }
 
-/* Cable Configuration */
+/* size choice */
 .size-choice {
   margin-bottom: 10px;
 }
 
 .size-choice button {
+  margin-left: 15px;
   border: 2px solid #D6D6D6;
   border-radius: 6px;
-  padding: 13px 20px;
-  font-size: 14px;
+  padding: 15px 20px;
+  font-size: 16px;
   color: #5E6977;
   background-color: #fff;
   cursor: pointer;
@@ -263,14 +276,15 @@ ul.crumb-trail li a:hover {
 .size-choice button:focus {
   border: 2px solid #757575;
   outline: none;
+  background-color: #DEE7FF;
 }
 
-.cable-config {
+.size-customization {
   border-bottom: 1px solid #E1E8EE;
   margin-bottom: 20px;
 }
 
-.cable-config a {
+.size-customization a {
   color: #358ED7;
   text-decoration: none;
   font-size: 12px;
@@ -278,7 +292,7 @@ ul.crumb-trail li a:hover {
   margin: 10px 0;
   display: inline-block;
 }
-.cable-config a:before {
+.size-customization a:before {
   content: &amp;quot;?&amp;quot;;
   height: 15px;
   width: 15px;
@@ -291,29 +305,17 @@ ul.crumb-trail li a:hover {
   margin-right: 5px;
 }
 
-/* Product Price */
-.product-price {
-  display: flex;
-  align-items: center;
-}
-
-.product-price span {
-  font-size: 26px;
-  font-weight: 300;
-  color: #43474D;
-  margin-right: 20px;
-}
-
-.cart-btn {
+.addToCartButton {
   display: inline-block;
-  background-color: #7DC855;
+  background-color: #DEE7FF;
   border-radius: 6px;
-  font-size: 16px;
-  color: #FFFFFF;
+  font-size: 32px;
+  color: #000000;
   text-decoration: none;
-  padding: 12px 30px;
-  transition: all .5s;
+  padding: 25px 40px;
+  transition: all .75s;
 }
-.cart-btn:hover {
-  background-color: #64af3d;
+.addToCartButton:hover {
+  background-color: #3E4454;
+  color: #FFFFFF;
 }
