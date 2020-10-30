@@ -3,7 +3,7 @@ function changeColor(newColor) {
 
   if(newColor == "strawberry") {
     newProductImg.src = "images/strawberry-harness.png";
-  }
+  )
   else if (newColor == "blackberry") {
     newProductImg.src = "images/header-logo.png";
   }
