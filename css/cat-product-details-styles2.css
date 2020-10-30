@@ -142,6 +142,10 @@ html, body {
   transition: all 0.3s ease;
 }
 
+#product-img {
+  background-color: red;
+}
+
 /* Product Description */
 .product-description {
   border-bottom: 1px solid #E1E8EE;
