@@ -142,10 +142,6 @@ html, body {
   transition: all 0.3s ease;
 }
 
-.left-column img.active {
-  opacity: 1;
-}
-
 /* Product Description */
 .product-description {
   border-bottom: 1px solid #E1E8EE;
