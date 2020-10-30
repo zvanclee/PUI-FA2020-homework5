@@ -1,13 +1,10 @@
-<script>
 $(document).ready(function() {
 
-  $('.color-choose input').on('click', function() {
-      var headphonesColor = $(this).attr('data-image');
+  $('.color-choice input').on('click', function() {
+      let colorSelection = $(this).attr('data-image');
 
       $('.active').removeClass('active');
-      $('.left-column img[data-image = ' + headphonesColor + ']').addClass('active');
+      $('.left-column img[data-image = ' + colorSelection + ']').addClass('active');
       $(this).addClass('active');
   });
-
 });
-</script>
