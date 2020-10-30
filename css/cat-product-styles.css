@@ -16,6 +16,10 @@
   margin: auto;
 }
 
+body {
+  margin: 0;
+}
+
 h1, h2, p, a, li{
   font-family: Avenir;
   font-style: normal;
