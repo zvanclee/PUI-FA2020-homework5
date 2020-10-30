@@ -59,65 +59,11 @@ html, body {
   top: 30px;
 }
 
-.footer {
-  background-color: #3E4454;
-  color: white;
-  height: 150px;
-}
-
-.footer-nav-options {
-  margin-left: 10%;
-  overflow: hidden;
-}
-
-.footer-nav-options a{
-  text-decoration: none;
-  margin-left: 15px;
-  color: white;
-}
-
-.footer-shop {
-  margin-left: 10%;
-  float: left;
-  display: block;
-  text-align: left;
-  padding: 5px 16px;
-  text-decoration: none;
-}
-
-.footer-customer-service {
-  margin-left: 10%;
-  float: left;
-  display: block;
-  text-align: left;
-  padding: 5px 16px;
-  text-decoration: none;
-}
-
-.footer-muddy-paws {
-  margin-left: 10%;
-  float: left;
-  display: block;
-  text-align: left;
-  padding: 5px 16px;
-  text-decoration: none;
-}
-
-.footer-back-to-top {
-  margin-left: 10%;
-  float: left;
-  display: block;
-  text-align: left;
-  padding: 5px 16px;
-  text-decoration: none;
-}
-
-/* Container for flexboxes */
 .row {
   display: flex;
 }
 
-/* Columns */
+/* columns */
 .left-column {
   padding-left: 20px;
   left: 50px;
@@ -134,7 +80,7 @@ html, body {
   padding-bottom: 30px;
 }
 
-/* Left Column */
+/* left column */
 
 .left-column img {
   padding-bottom: 30px;
@@ -182,12 +128,12 @@ ul.crumb-trail li a:hover {
 .product-description h1 {
   font-weight: 300;
   font-size: 52px;
-  color: #43484D;
+  color: #000000;
   margin-bottom: 15px;
 }
 
 .product-description h2 {
-  color: #43484D;
+  color: #000000;
   margin-bottom: 15px;
 }
 
@@ -208,11 +154,11 @@ ul.crumb-trail li a:hover {
 }
 
 .reviewScore h3 {
-  color: #43484D;
+  color: #000000;
 }
 
 
-/* Product Color */
+/* color choice */
 .product-color {
   margin-bottom: 30px;
 }
@@ -267,6 +213,7 @@ ul.crumb-trail li a:hover {
 .product-customization span{
   font-size: 22px;
 }
+
 /* size choice */
 .size-choice {
   margin-bottom: 10px;
@@ -311,7 +258,7 @@ ul.crumb-trail li a:hover {
   height: 15px;
   width: 15px;
   border-radius: 50%;
-  border: 2px solid rgba(53, 142, 215, 0.5);
+  border: 2px solid #060604;
   display: inline-block;
   text-align: center;
   line-height: 16px;
@@ -328,8 +275,63 @@ ul.crumb-trail li a:hover {
   text-decoration: none;
   padding: 25px 40px;
   transition: all .75s;
+  border: 2px solid #060604;
 }
 .addToCartButton:hover {
+  color: #446DFF;
+  border: 2px solid #446DFF;
+}
+
+
+.footer {
   background-color: #3E4454;
-  color: #FFFFFF;
+  color: white;
+  height: 150px;
+}
+
+.footer-nav-options {
+  margin-left: 10%;
+  overflow: hidden;
+}
+
+.footer-nav-options a{
+  text-decoration: none;
+  margin-left: 15px;
+  color: white;
+}
+
+.footer-shop {
+  margin-left: 10%;
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+.footer-customer-service {
+  margin-left: 10%;
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+.footer-muddy-paws {
+  margin-left: 10%;
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 5px 16px;
+  text-decoration: none;
+}
+
+.footer-back-to-top {
+  margin-left: 10%;
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 5px 16px;
+  text-decoration: none;
 }
