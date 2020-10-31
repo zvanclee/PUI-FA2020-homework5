@@ -245,27 +245,6 @@ ul.crumb-trail li a:hover {
   margin-bottom: 20px;
 }
 
-.size-customization a {
-  color: #358ED7;
-  text-decoration: none;
-  font-size: 12px;
-  position: relative;
-  margin: 10px 0;
-  display: inline-block;
-}
-.size-customization a:before {
-  content: &amp;quot;?&amp;quot;;
-  height: 15px;
-  width: 15px;
-  border-radius: 50%;
-  border: 2px solid #060604;
-  display: inline-block;
-  text-align: center;
-  line-height: 16px;
-  opacity: 0.5;
-  margin-right: 5px;
-}
-
 .addToCartButton {
   display: inline-block;
   background-color: #DEE7FF;
