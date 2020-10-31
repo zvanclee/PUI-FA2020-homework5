@@ -26,7 +26,7 @@ function changeColor(newColor) {
 
 // shows message that item has been added to cart
 function addItemToCartMessage() {
-  alert("Item added to cart!")
+  alert("Item added to cart!");
 }
 
 let displayedItemCount = document.getElementById("item-count-in-cart");
