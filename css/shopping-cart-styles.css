@@ -159,10 +159,27 @@ html, body {
 
 .go-to-checkout h1 {
   justify-content: center;
-  margin: 0px;
   font-size: 32px;
   color: #000000;
   font-weight: 500;
+}
+
+.go-to-checkout {
+  display: inline-block;
+  height: 50px;
+  width: 520px;
+  background-color: #DEE7FF;
+  border-radius: 6px;
+  font-size: 32px;
+  text-decoration: none;
+  color: #000000;
+  transition: all .75s;
+  border: 2px solid #000000;
+  text-align: center;
+}
+.go-to-checkout:hover {
+  color: #446DFF;
+  border: 2px solid #446DFF;
 }
 
 .footer {

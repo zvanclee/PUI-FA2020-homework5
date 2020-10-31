@@ -269,7 +269,7 @@ ul.crumb-trail li a:hover {
 .addToCartButton {
   display: inline-block;
   background-color: #DEE7FF;
-  border-radius: 6px;
+  border-radius: 15px;
   font-size: 32px;
   color: #000000;
   text-decoration: none;
