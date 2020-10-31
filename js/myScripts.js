@@ -24,6 +24,25 @@ function changeColor(newColor) {
   }
 }
 
-function addItemToCart() {
+// shows message that item has been added to cart
+function addItemToCartMessage() {
   alert("Item added to cart!")
+}
+
+let displayedItemCount = document.getElementById("item-count-in-cart");
+
+function addItemCartCount() {
+  // let currItemCount = document.getElementById("item-count-in-cart");
+  let currItemCount = displayedItemCount;
+  currItemCount = Number(currItemCount);
+  let newItemCount = currItemCount + 1;
+  newItemCount = currItemCount.toString();
+  displayedItemCount.textContent = newItemCount;
+  document.getElementById("item-count-in-cart").style.display = "inline";
+
+}
+
+function gfg_Run() {
+    span.textContent = "New Span content";
+    el_down.innerHTML = "Span content changed";
 }
