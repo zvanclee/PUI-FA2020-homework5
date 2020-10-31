@@ -23,3 +23,7 @@ function changeColor(newColor) {
     colorFieldText.textContent="Fire Orange";
   }
 }
+
+function addItemToCart() {
+  alert("Item added to cart!")
+}
