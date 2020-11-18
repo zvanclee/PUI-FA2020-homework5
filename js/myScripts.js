@@ -26,14 +26,12 @@ function changeColor(newColor) {
 
 // shows message that item has been added to cart
 function addItemToCartMessage() {
-  alert("Item added to cart!");
+  alert("Item added to cart!")
 }
 
-let displayedItemCount = document.getElementById("item-count-in-cart");
-
 function addItemCartCount() {
-  // let currItemCount = document.getElementById("item-count-in-cart");
-  let currItemCount = displayedItemCount;
+  let displayedItemCount = document.getElementById("item-count-in-cart");
+  let currItemCount = displayedItemCount.value;
   currItemCount = Number(currItemCount);
   let newItemCount = currItemCount + 1;
   newItemCount = currItemCount.toString();
